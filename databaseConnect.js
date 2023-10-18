@@ -44,7 +44,7 @@ class ConnectingDB {
                 content: postContent
             });
 
-            post.save();
+            await post.save();
 
             console.log("Added post '"+postTitle+"' succesfully");
         }
